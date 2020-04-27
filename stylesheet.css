@@ -1,0 +1,212 @@
+*{
+	box-sizing:border-box;
+
+}
+body{
+	margin: 0;
+	font-family: lato;
+}
+
+ul{
+	list-style: none;
+}
+
+
+li{
+	float: left;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+.clear{
+	clear:left;
+}
+
+
+
+.header-list a{
+	text-align: right;	
+	color: white;
+	padding: 10px;
+	margin-top: 25px;
+
+}
+
+header{
+	background-color: #263238;
+	width: 100%;
+	height: 70px;
+	position: fixed;
+	z-index: 10;
+	text-align: right;
+	padding-top: 20px;
+}
+
+.container {
+  /* Ubah width ke 100% */
+  width: 100%;
+  padding: 0 5px;
+  margin: 0 auto;
+}
+
+.bagian-utama{
+	padding-top:120px;
+  	padding-bottom: 100px;
+  	color:#3E2723;
+  	background-image: url(https://www.infokekinian.com/wp-content/uploads/2018/09/Perdagangan-Internasional.png);
+  	background-size: cover;
+  	height: 700px;
+
+
+}
+
+.bagian-utama h1{
+	font-size: 40px;
+	text-align: center;
+	letter-spacing: 8px;
+	opacity: 1;
+
+}
+
+.bagian-utama p{
+	font-size: 20px;
+	text-align: center;
+	letter-spacing: 1px;
+
+}
+
+.bagian-utama container{
+	margin-top:500px;
+}
+
+.ekstra-atas{
+	background-color: rgb(224, 224, 224); 
+	/*height: 300px;*/
+	text-align:center;
+	padding-top:10px;
+
+}
+.profil-foto p{
+	font-size :25px;
+}
+
+.ekstra-tengah{
+	background-color:#a5b1c2;
+	/*height: 350px;*/
+	text-align:center;                          
+}
+
+.keterangan-foto p{
+	font-size :20px;
+	margin: 0;
+}
+
+.rule-image img{
+	height: 100px;
+	width: 100px;
+	border-radius:30px;
+	
+}
+.ekstra-bawah{
+	background-color: #778ca3;
+	padding-top:10px;
+	padding-left:15px;
+	text-align: center;
+}
+
+input, textarea{
+	width:200px;
+	margin-top:1px;
+	margin-bottom:9px;
+	padding:10px;
+	font-size:18px;
+	border:1px solid #dee7ec;
+}
+
+.btn{
+	width:50px;
+	height:25px;
+	font-size:13px;
+	padding:2px;
+	color: black;
+
+}
+
+.submit{
+  	background-color: #B71C1C;
+  	cursor: pointer;
+  	box-shadow: 0px 2px #f5f6fa;
+}
+
+.profil{
+	float: left;
+	width: 50%;
+	padding-right:100px;
+	padding-left:100px;
+
+}
+
+
+.profil p{
+	text-align: center;
+	font-size: 16px;
+
+}
+
+.profil h1{
+	font-size: 21px;
+
+}
+
+.profil-foto img{
+	height: 100px;
+	width: 100px;
+	border-radius:50px;
+	
+}
+
+.heading{
+	text-align: center;
+	font-size: 23px;
+	
+	
+}
+
+.rule{
+	float: left;
+	width: 20%;
+	padding-top:4px;
+	padding-right:17px;
+	padding-left:17px;
+	
+
+}
+
+.rule p{
+	text-align: center;
+
+}
+
+.rule-image p{
+	font-size:20px;
+	position: relative;
+
+}
+
+
+footer{ 
+	background-color: #c8d6e5;
+	height: 100px;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 10px;
+ }
+
+
+.media-sosial img{
+	width: 30px;
+	height: 30px;
+}
