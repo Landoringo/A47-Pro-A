@@ -1,0 +1,45 @@
+@media(max-width: 1000px){
+.profil{
+	width: 100%;
+    margin-bottom: 50px;
+}
+
+
+.rule{
+	width: 50%;
+    margin-bottom: 50px;
+	}
+
+header{
+	text-align: center;	
+
+}
+
+.bagian-utama h1{
+	font-size: 35px;
+	text-align: center;
+	letter-spacing: 5px;
+	opacity: 1;
+
+}
+
+}
+
+@media(max-width:670px;){
+
+.profil{
+	width: 100%;
+    margin-bottom: 50px;
+
+}
+.rule{
+	width: 100%;
+    margin-bottom: 50px;
+	}
+
+.bagian-utama p{
+	color: #FFFF00;
+
+}
+
+}
